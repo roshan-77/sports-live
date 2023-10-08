@@ -1,0 +1,80 @@
+/* Basic styles for navigation bar */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.tab {
+    display: none;
+    padding: 20px;
+}
+
+/* Style the active tab */
+.active {
+    display: block;
+}
+
+
+/* Additional styles for the homepage */
+.homepage {
+    text-align: center;
+    padding: 40px;
+}
+
+.homepage h2 {
+    font-size: 36px;
+}
+
+.homepage p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.channel-preview {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.channel {
+    display: inline-block;
+    text-align: center;
+    margin: 0 20px;
+}
+
+.channel a{
+    color: black;
+    text-decoration: none;
+}
+
+.channel img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.channel h4 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.channel p {
+    font-size: 16px;
+}

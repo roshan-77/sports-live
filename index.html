@@ -3,13 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sports LIVE</title>
+    <title>Live Games</title>
+    <link rel="stylesheet" href="styles.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5912325621859351"
+     crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>ICC Cricket World Cup 2023</h1>
-    <iframe src="//stream.crichd.vip/update/skys1.php" width="100%" height="500px" marginheight="0" marginwidth="0" scrolling="no" frameborder="0" allowfullscreen  allow="encrypted-media"></iframe>
-    <iframe src="//stream.crichd.vip/update/skys2.php" width="100%" height="500px" marginheight="0" marginwidth="0" scrolling="no" frameborder="0" allowfullscreen  allow="encrypted-media"></iframe>
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#channels">Channels</a></li>
+                <li><a href="#about">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="tab active">
+        <div class="homepage">
+            <h2>Welcome to Live Games</h2>
+            <p>Discover and watch your favorite live sports channels right here. We bring you a wide range of channels covering all your sports interests.</p>
+        </div>
+        <div class="channel-preview">
+            <h2>Featured Channels</h2>
+            <h3>Cricket World Cup 2023 - Special</h3>
+
+            <h1 style="color: red;">Note : If the video doesn't work in Mobile version. Please enable you browser to "Desktop Site"</h1>
+            <div class="channel">
+                <a href="./Star Sports.html">
+                    <img src="./images/Star_Sports_2013.webp" alt="Star Sports">
+                    <h4>Star Sports</h4>
+                    <p>India's Best Sports Channel</p>
+                </a>
+            </div>
+            <div class="channel">
+                <a href="./Fox Cricket 501 HD.html">
+                    <img src="./images/Fs1AU_HD.webp" alt="Fox Cricket 501 HD">
+                    <h4>Fox Cricket 501 HD</h4>
+                    <p>Sports Channel</p>
+                </a>
+            </div>
+            <div class="channel">
+                <a href="./willowhd.html">
+                    <img src="./images/WLLOW-logo.png" alt="Willow Cricket HD">
+                    <h4>Willow Cricket HD</h4>
+                    <p>Sports Channel</p>
+                </a>
+            </div>
+        </div>
+
+        <div>
+            <h1 style="text-align: center;">India vs Australia LIVE</h1>
+            <iframe src="//stream.crichd.vip/update/star.php" width="100%" height="auto" marginheight="0" marginwidth="0" scrolling="no" frameborder="0" allowfullscreen  allow="encrypted-media"></iframe>
+        </div>
+    </section>
+
+    <section id="channels" class="tab">
+        <h2>Channels</h2>
+        <ul id="channel-list">
+            <!-- JavaScript will populate this list -->
+        </ul>
+    </section>
+
+    <section id="about" class="tab">
+        <h2>About Us</h2>
+        <!-- Add content for the About Us tab -->
+    </section>
+
+    <script src="script.js"></script>
 </body>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5912325621859351"
-     crossorigin="anonymous"></script>
 </html>
